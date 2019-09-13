@@ -51,8 +51,5 @@ n.sims.param = 1e4
 birthday.prob(n.pers.param,n.sims.param)
 ```
 
-Ok, I am convinced that the probability of atl least two people in this room share the same birthday is `r birthday.prob(n.pers.param,n.sims.param)`
-
-
-
+Ok, I am convinced that the probability of atl least two people in this room share the same birthday is `r round(birthday.prob(n.pers.param,n.sims.param), 2)`
 
